@@ -5,12 +5,10 @@ navbar_entries:
   - title: blog
     url: blog
 
-  - title: website
-    url: https://www.abhinav.co
-
+ 
 project_entries:
-  - title: Project 1
-    url: overview-post
+  - title: Proof of Alphanumeric Algorithm
+    url: https://www.parabola.unsw.edu.au/2020-2029/volume-56-2020/issue-3/article/computational-and-mathematical-analysis-convergent
     desc: This is an example project, configured in _data/home.yml
 
   - title: Project 2
@@ -58,10 +56,10 @@ footer_entries:
     url: https://www.abhinav.co
 
   - title: twitter
-    url: https://twitter.com/abhinav
+    url: https://twitter.com/arqamrp
 
   - title: github
-    url: https://github.com/abhinavs
+    url: https://github.com/arqamrp
 
   - title: feed
     url: feed.xml
