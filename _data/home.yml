@@ -9,7 +9,7 @@ navbar_entries:
     url: https://drive.google.com/file/d/196mZabMRKWI66o_MXAuIf7KByw7ePUQ6/view?usp=sharing
   
   - title: contact
-    url: #myfooter
+    url: /#myfooter
   
 project_entries:
   - title: Math and comp analysis of a fun algorithm
