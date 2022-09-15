@@ -7,32 +7,15 @@ navbar_entries:
 
  
 project_entries:
-  - title: Proof of Alphanumeric Algorithm
+  - title: Math and comp analysis of a fun algorithm
     url: https://www.parabola.unsw.edu.au/2020-2029/volume-56-2020/issue-3/article/computational-and-mathematical-analysis-convergent
-    desc: This is an example project, configured in _data/home.yml
+    desc: Take any number, count its spelling length, repeat 1st step with it. You always get 4.
 
-  - title: Project 2
-    url: overview-post
-    desc: Projects are shown in card layout
+  - title: Blood Camp Data Exploration
+    url: https://docs.google.com/document/d/1XUtsforG7nWwfggcmXewpyjI_aT5QKB8oUA25Z75tf0/edit
+    desc: Some R practice I did with a dataset from a camp I volunteered at.
 
-  - title: Project 3
-    url: overview-post
-    desc: You can control visibility from _config.yml file
-
-  - title: Project 4
-    url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
-    highlight: WIP
-
-  - title: Project 5
-    url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
-    highlight: WIP
-
-  - title: Project 6
-    url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
-
+ 
 old_project_entries:
   - title: Soopr
     url: https://www.soopr.co
