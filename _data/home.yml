@@ -8,6 +8,9 @@ navbar_entries:
   - title: CV
     url: https://drive.google.com/file/d/196mZabMRKWI66o_MXAuIf7KByw7ePUQ6/view?usp=sharing
   
+  - title: contact
+    url: #myfooter
+  
 project_entries:
   - title: Math and comp analysis of a fun algorithm
     url: https://www.parabola.unsw.edu.au/2020-2029/volume-56-2020/issue-3/article/computational-and-mathematical-analysis-convergent
