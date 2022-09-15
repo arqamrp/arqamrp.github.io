@@ -7,18 +7,3 @@ layout: default
   <h1>{{ site.title }}</h1>
 </header>
 
-{% capture words %}
-{{ content | number_of_words | minus: 180 }}
-{% endcapture %}
-{% unless words contains '-' %}
-{{ words | plus: 180 | divided_by: 180 | append: ' minutes to read' }}
-{% endunless %}
-
-{% include post_list.html %}
-
-{% if site.theme_config.show_footer == true %}
-  <footer>
-    <div class="dashed"></div>
-    {% include horizontal_list.html collection=site.data.home.footer_entries %}
-  </footer>
-{% endif %}
