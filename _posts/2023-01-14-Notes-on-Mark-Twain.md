@@ -49,7 +49,7 @@ Writing this was fun[^15]. I should do more of this stuff.
 
 [^4] I had encountered one in a MELA practice set and failed to recall his name, although I had identified the work as *Tom Sawyer* from the description of the plot. I ended up answering *Lewis Carroll* as a consolation guess for the sake of attempting, even though I knew it wasn't him. The ensuing embarrassment contributed to the writing of this essay.
 
-[^42] What even did you do in your childhood if you haven't read these classics? Also, there's got to be a better way of adding enumerated footnotes in markdown. Tired of changing the numbers of all subsequent footnotes whenever I get ideas for quips.git
+[^42] What even did you do in your childhood if you haven't read these classics? Also, there's got to be a better way of adding enumerated footnotes in markdown. Tired of changing the numbers of all subsequent footnotes whenever I get ideas for quips. SMH Jekyll doesn't support linked footnotes natively.
 
 [^5] I intend to write on the subject in more detail in the near future
 
