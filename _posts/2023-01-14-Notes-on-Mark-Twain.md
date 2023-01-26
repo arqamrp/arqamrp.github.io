@@ -10,9 +10,10 @@ Like with everything about him, there's an interesting story behind his pen name
 
 Part of what makes him a quizmaster's pet is that Twain was quite the socialite. In fact, he had so vast an acquaintance that he constituted several "clubs" consisting of slices of his social pie.
 
-One such club was the Juggernaut Club [^6], which drew its membership from amongst the women who wrote to Twain but never received his *darshan*. We know about the existence of this institution from a letter of investiture Twain sent to a certain Ms Helen, a French Alsatian maiden of 29, who happened to enter his correspondence. The letter solemnly describes the club's Constitution, paraphrased here.
+One such club was the Juggernaut Club [^6], which drew its membership from amongst the women who wrote to Twain but never received his *darshan*. We know about the existence of this institution from a letter of investiture Twain sent to a certain Ms Helen, a French Alsatian maiden of 29, who happened to enter his correspondence. The letter solemnly describes the club's Constitution, part of which is paraphrased here.
 
 > The club shall have only one member from one country.
+> 
 > Members don't get a say in their membership; only the Chief Servant[^7] of the club (the grand old man himself) does.
 
 He mentions members from Scotland, the US of A, and, very interestingly, a Mohammedan girl from Bengal. Had I ever thought about it, my estimation of the likelihood of English-educated Muslim Hindustani women in that era would have been low. That of such a woman knowing about and taking the step of writing letters to the venerable Mk2ain? Zero. People were better at cold mailing back then. 
