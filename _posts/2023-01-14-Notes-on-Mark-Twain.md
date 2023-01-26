@@ -66,7 +66,7 @@ Writing this was fun[^15]. I should do more of this stuff.
 
 [^11] The OG eccentric madlad. I first read about him in a book called *Philip Ardagh's Book of Howlers, Blunders and Random Mistakery*, which is an absolute gem of a book, especially for quizzers and those who delight in trivia over tea.
 
-[^12] I intend to start keeping a scrapbook one day. The product sounds rather convenient, but a Google search threw up mostly articles about Twain and one scrapbook product priced at Rs 5000.
+[^12] I intend to start keeping a scrapbook some day. The product sounds rather convenient, but a Google search threw up mostly articles about Twain and one scrapbook product priced at Rs 5000.
 
 [^13] Relatable. On a related note, the US (and, to some extent, the Indian) stock market is hellishly volatile these days.
 
