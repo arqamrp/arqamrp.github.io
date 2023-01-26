@@ -1,0 +1,180 @@
+{
+  "main": {
+    "id": "643627981d8bf588",
+    "type": "split",
+    "children": [
+      {
+        "id": "40bb09cbe46dcfe6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "49274633715e3a7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2022-09-15-Why-SDS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6f1a6cfe4f799faf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023-01-14-Notes-on-Mark-Twain.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "18ea5f8653dacda0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023-01-21-On-Quizzing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "db3d213cb7a50f15",
+    "type": "split",
+    "children": [
+      {
+        "id": "d13afc1ec85ec329",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "47a09d7c9611f557",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bdc255e086b762fc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1d8e433246fbe1df",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6f9b003b3eac775e",
+    "type": "split",
+    "children": [
+      {
+        "id": "3efb0e01fd3db026",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "741b327736cb6054",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2023-01-14-Notes-on-Mark-Twain.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6e1166910899a1b5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2023-01-14-Notes-on-Mark-Twain.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "40f9c2c2b07bfa20",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a0cc5c35178ce69c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2023-01-14-Notes-on-Mark-Twain.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "6f1a6cfe4f799faf",
+  "lastOpenFiles": [
+    "2023-01-21-On-Quizzing.md",
+    "2023-01-14-Notes-on-Mark-Twain.md",
+    "2022-09-15-Why-SDS.md"
+  ]
+}
