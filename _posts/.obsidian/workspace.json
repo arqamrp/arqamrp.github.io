@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-0121-On-Quizzing.md",
+                "file": "2023-01-14-Notes-on-Mark-Twain.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-0121-On-Quizzing.md",
+                "file": "2023-01-14-Notes-on-Mark-Twain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-0121-On-Quizzing.md",
+                "file": "2023-01-14-Notes-on-Mark-Twain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-0121-On-Quizzing.md"
+                "file": "2023-01-14-Notes-on-Mark-Twain.md"
               }
             }
           }
@@ -173,8 +173,8 @@
   },
   "active": "6f1a6cfe4f799faf",
   "lastOpenFiles": [
-    "2023-01-14-Notes-on-Mark-Twain.md",
     "2023-0121-On-Quizzing.md",
+    "2023-01-14-Notes-on-Mark-Twain.md",
     "2022-09-15-Why-SDS.md"
   ]
 }
