@@ -38,6 +38,9 @@ I realise, of course, that I haven't written much about the literary aspects of 
 Writing this was fun[^15]. I should do more of this stuff.
 
 
+
+
+
 [^1] Another one of those QM's pets
 
 [^2] I only remembered him as the author of BFG, nearly costing us qualification in the Inter IIT MELA quiz. I might also have recalled him as the author who, along with Enid Blyton, I had ridiculed my little sister for still reading at an age where I had read the likes of the Odyssey, the Three Musketeers and 1984. In the quiz, I was split between him and Dr Seuss- another pair of contemporaries with similar literary audiences and almost coterminous lives 
