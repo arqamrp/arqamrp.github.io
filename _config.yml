@@ -4,6 +4,8 @@ url: https://arqamrp.github.io # root address of the site
 description: > # description of the site (multiple lines allowed)
   I am a sophomore student at IIT, Kanpur, studying Stats and Data science. I'm interested in computational linguistics, natural language processing, federated learning and knowledge representation and reasoning.
 
+markdown: kramdown
+
 permalink: /:slug
 
 favicon: "./logo.png" # relative path to site's favicon
