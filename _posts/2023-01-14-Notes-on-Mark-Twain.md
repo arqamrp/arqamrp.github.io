@@ -14,7 +14,7 @@ One such club was the Juggernaut Club [^6], which drew its membership from among
 
 > The club shall have only one member from one country.
 > 
-> Members don't get a say in their membership; only the Chief Servant[^7] of the club (the grand old man himself) does.
+> Members don't get a say in their membership; only the Chief Servant of the club [^7] does.
 
 He mentions members from Scotland, the US of A, and, very interestingly, a Mohammedan girl from Bengal. Had I ever thought about it, my estimation of the likelihood of English-educated Muslim Hindustani women in that era would have been low. That of such a woman knowing about and taking the step of writing letters to the venerable Mk2ain? Zero. People were better at cold mailing back then. 
 
@@ -56,7 +56,7 @@ Writing this was fun[^15]. I should do more of this stuff.
 
 [^6] Unsurprisingly, the subject of a question in one of those quiz sets we practised on for the Inter IIT Cultural Meet held in IIT Madras in January 2023. I correctly guessed that the person involved was Mark Twain (one of the rare instances I recalled the name) from the sheer eccentricity of the endeavour it described
 
-[^7] What if this is the origin of the phrase *Pradhan Sevak*? What if he's a well-read guy with a thing for Mark Twain trivia? We can never know for sure.
+[^7] Of course, the grand old man himself. Also, what if this is the origin of the phrase *Pradhan Sevak*? What if he's a well-read guy with a thing for Mark Twain trivia? We'll never know for sure.
 
 [^8] Not to be confused with Anglerfish, the old, nasty predator which attracts little fish in the deep dark with its shiny appendage
 
