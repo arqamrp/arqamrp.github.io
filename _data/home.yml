@@ -20,9 +20,9 @@ project_entries:
     url: https://docs.google.com/document/d/1XUtsforG7nWwfggcmXewpyjI_aT5QKB8oUA25Z75tf0/edit
     desc: My entry to the most useless data analysis challenge (done voluntarily for R practice), on a dataset from a camp I volunteered at.
 
-  - title: Some data on MOOCs
+  - title: Some random plots on MOOCs
     url: https://arqam.shinyapps.io/final/
-    desc: A mediocre Shiny App on data scraped from NPTEL, Coursera and edX. Made for MTH208 in what was meant to be a group project.
+    desc: A mediocre Shiny App on data scraped from NPTEL, Coursera and edX. Made for MTH208 in a single day in what was meant to be a group project.
  
 old_project_entries:
   - title: Soopr
