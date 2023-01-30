@@ -12,14 +12,17 @@ navbar_entries:
     url: /#myfooter
   
 project_entries:
-  - title: Math and comp analysis of a fun algorithm
+  - title: Serious mathematics on a recreational algorithm
     url: https://www.parabola.unsw.edu.au/2020-2029/volume-56-2020/issue-3/article/computational-and-mathematical-analysis-convergent
     desc: Take any number, count its spelling length, repeat 1st step with it. You always get 4.
 
-  - title: Blood Camp Data Exploration
+  - title:  Blood camp donors data
     url: https://docs.google.com/document/d/1XUtsforG7nWwfggcmXewpyjI_aT5QKB8oUA25Z75tf0/edit
-    desc: Some R practice I did with a dataset from a camp I volunteered at.
+    desc: My entry to the useless data analysis challenge (done voluntarily for R practice), on a dataset from a camp I volunteered at.
 
+  - title: Some data on MOOCs
+    url: https://arqam.shinyapps.io/final/
+    desc: A mediocre Shiny App on scraped data made for MTH208. 
  
 old_project_entries:
   - title: Soopr
