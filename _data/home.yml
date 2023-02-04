@@ -5,8 +5,8 @@ navbar_entries:
   - title: blog
     url: blog
 
-  - title: test 
-    url: test
+  - title: logs 
+    url: logs
    
   - title: CV
     url: https://drive.google.com/file/d/12rxVgAPP3uu0zJb8tR3a1YoBkY3dbjTS/view?usp=sharing
