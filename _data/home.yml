@@ -5,6 +5,9 @@ navbar_entries:
   - title: blog
     url: blog
 
+  - title: learning
+    url: learning
+
   - title: logs 
     url: logs
    
