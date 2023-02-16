@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "40bb09cbe46dcfe6",
+        "id": "d5f7f481bcfeace8",
         "type": "tabs",
         "children": [
           {
-            "id": "49274633715e3a7b",
+            "id": "ef412a6f5981351c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2022-09-15-Why-SDS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6f1a6cfe4f799faf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-01-14-Notes-on-Mark-Twain.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "18ea5f8653dacda0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-0121-On-Quizzing.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-01-14-Notes-on-Mark-Twain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-01-14-Notes-on-Mark-Twain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2023-01-14-Notes-on-Mark-Twain.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -171,10 +138,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6f1a6cfe4f799faf",
+  "active": "ef412a6f5981351c",
   "lastOpenFiles": [
     "2023-0121-On-Quizzing.md",
-    "2023-01-14-Notes-on-Mark-Twain.md",
-    "2022-09-15-Why-SDS.md"
+    "2022-09-15-Why-SDS.md",
+    "2023-01-14-Notes-on-Mark-Twain.md"
   ]
 }
