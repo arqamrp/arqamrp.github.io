@@ -1,12 +1,14 @@
-Quizzing is my oldest hobby. I participated in (and won) my first quiz at age five. Here's pictorial proof (I'm the one on the right):
+Quizzing is a peculiar hobby, and an uncommon one. It is therefore no surprise that it does not have weighty volumes written on its purpose or philosophy, unlike art or music or possibly, whatever it is that they do at the campus literary society (literary criticism or production isn't one of their fortes).
+
+Quizzing is also, by chance, my oldest hobby. I participated in (and won) my first quiz at age five. Here's pictorial proof (I'm the one on the right):
 
 ![](/assets/quizz.jpeg)
 
-This "essay" was planned months ago, when I wrote the [Twain one](2023-01-14-Notes-on-Mark-Twain) (as noted in its fifth footnote), but was expedited by my commissioning to write an introductory foreword to the IITK Quiz Club's upcoming propaganda pamphlet, the Quizzer's Guide to the Galaxy.
+But I digress- this short piece isn't so much about my experience with quizzing. I might write on that when I've had enough of it, but that's hardly on the horizon right now. What this is, is my obviously biased couple cents on what quizzing is about and how it might be constructive, intended both for novices, as an endorsement, and experienced quizzers, as a friendly holler to mark twain. This "essay" was planned months ago, when I wrote the [Twain one](2023-01-14-Notes-on-Mark-Twain) (as noted in its fifth footnote), but was expedited by my commissioning for an introductory foreword to the IITK Quiz Club's upcoming propaganda pamphlet, the Quizzer's Guide to the Galaxy. 
 
 **What is quizzing?**
 
-Let me phrase this question better: who is a quizzer?
+Let me phrase this question better: who is a quizzer? 
 In the purest sense, an ideal quizzer is a conscious connoisseur of culture. Don't worry if you don't get this quip; the rest revolves around explaining it.
 
 ![man of culture meme](https://i.kym-cdn.com/photos/images/newsfeed/001/236/841/075.jpg)
@@ -44,7 +46,7 @@ But even without this knowledge, with only layman knowledge and basic logic and 
 ![CONMEBOL meme](https://pbs.twimg.com/media/DIroKqXWsAAIwaa.jpg)
 
 
-**An Analytical Perspective on Quizzing**
+**The Prospective Benefits of Quizzing**
 
 Any competitive hobby, in the end, is a sport, of the mind, body or both. Every sport rewards and in turn reinforces (and selects for) certain traits and behaviours. In the case of quizzing:
 - It strongly encourages inquisitiveness, aka curiosity. Duh.
