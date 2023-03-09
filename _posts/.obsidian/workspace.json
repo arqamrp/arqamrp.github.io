@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ef412a6f5981351c",
+            "id": "f6e55ac81902f2b5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2023-03-09-An-Ode-to-Quizzing.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2023-03-09-An-Ode-to-Quizzing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2023-03-09-An-Ode-to-Quizzing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2023-03-09-An-Ode-to-Quizzing.md"
+              }
             }
           }
         ]
@@ -138,10 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ef412a6f5981351c",
+  "active": "f6e55ac81902f2b5",
   "lastOpenFiles": [
-    "2023-0121-On-Quizzing.md",
+    "593EDADB-99F9-449E-8886-CCDED82DE03B_1_105_c.jpeg",
+    "Pasted image 20230309134059.png",
+    "2023-03-09-An-Ode-to-Quizzing.md",
+    "2023-01-14-Notes-on-Mark-Twain.md",
     "2022-09-15-Why-SDS.md",
-    "2023-01-14-Notes-on-Mark-Twain.md"
+    "SummerProjects@IITK.md"
   ]
 }
