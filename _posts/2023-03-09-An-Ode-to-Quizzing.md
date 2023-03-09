@@ -44,7 +44,7 @@ But even without this knowledge, through only layman knowledge and elimination w
 ![CONMEBOL meme](https://pbs.twimg.com/media/DIroKqXWsAAIwaa.jpg)
 
 
-**A Perspective on Quizzing**
+**An Analytical Perspective on Quizzing**
 
 Any competitive hobby, in the end, is a sport, of the mind, body or both. Every sport rewards and in turn reinforces (and selects for) certain traits and behaviours. In the case of quizzing:
 - It strongly encourages inquisitiveness, aka curiosity. Duh.
@@ -58,9 +58,6 @@ Any competitive hobby, in the end, is a sport, of the mind, body or both. Every 
 Quizzing also serves as a proxy for helping develop encyclopaedic knowledge and wide reading across domains; things that are said to make one a good generalist.
 
 Being a good quizzer gives you the bandwidth to continue a conversation with anyone about their hobbies, work or background for at least as long as the time you've surfed its Wikipedia page. That is, if you manage to start a conversation.
-
-****
-
 
 **The dark side of quizzing**
 
