@@ -5,8 +5,7 @@ description: > # description of the site (multiple lines allowed)
   I am a sophomore at IIT, Kanpur, studying Stats and Data science. I'm an avid boxer, quizzer and reader.
   
   Academic interests: Statistics, natural language processing
-  I'd also like to learn more about federated learning, learning theory and game theory.
-  
+
   Other things: Literature, Philosophy, History, Culture 
 
 markdown: kramdown
@@ -32,7 +31,7 @@ theme_config:
   show_footer: true # show footer links in home page,add in _data/home.yml
   show_copyright: true # show copyright notice in footer
   # following keys are using to create home layout
-  show_projects: true # show projects as cards, add in _data/home.yml
+  show_projects: false # show projects as cards, add in _data/home.yml
   show_blog: true # show blog posts added in _posts
   show_old_projects: false # show old projects as cards, add in _data/home.yml
   show_misc_list: false # show generic vertical list for misc details, add _data/home.yml
