@@ -1,6 +1,6 @@
 navbar_entries:
   - title: about
-    url: about
+    url: https://arqamrp.github.io
 
   - title: blog
     url: blog
