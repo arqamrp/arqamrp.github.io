@@ -2,12 +2,12 @@ Quizzing is my oldest hobby. I participated in (and won) my first quiz at age fi
 
 ![](/assets/quizz.jpeg)
 
-This essay was planned months ago, when I wrote the [Twain one](2023-01-14-Notes-on-Mark-Twain) (as noted in its fifth footnote), but was expedited by my commissioning to write an introductory foreword to the IITK Quiz Club's upcoming pamphlet, the Quizzer's Guide to the Galaxy.
+This "essay" was planned months ago, when I wrote the [Twain one](2023-01-14-Notes-on-Mark-Twain) (as noted in its fifth footnote), but was expedited by my commissioning to write an introductory foreword to the IITK Quiz Club's upcoming propaganda pamphlet, the Quizzer's Guide to the Galaxy.
 
 **What is quizzing?**
 
 Let me phrase this question better: who is a quizzer?
-In the purest sense, an ideal quizzer is a conscious connoisseur of culture. Don't worry if you don't get this quip; the rest of the essay revolves around explaining it.
+In the purest sense, an ideal quizzer is a conscious connoisseur of culture. Don't worry if you don't get this quip; the rest revolves around explaining it.
 
 ![man of culture meme](https://i.kym-cdn.com/photos/images/newsfeed/001/236/841/075.jpg)
 
