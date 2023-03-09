@@ -39,7 +39,7 @@ Let's see what easy to spot clues the question gives us here:
 
 The South American federation is named CONMEBOL, as many football fans would know. That's the assumed familiarity in this question.
 
-But even without this knowledge, through only layman knowledge and elimination we were able to come pretty close to the right answer. This is what a lot of quizzing is like (you come close and then realise you don't know the name. I'm only partly kidding.).
+But even without this knowledge, with only layman knowledge and basic logic and elimination we were able to come pretty close to the right answer. This is what a lot of quizzing is like (you come close and then realise you don't know the name. I'm only partly kidding.).
 
 ![CONMEBOL meme](https://pbs.twimg.com/media/DIroKqXWsAAIwaa.jpg)
 
