@@ -27,7 +27,7 @@ An ideal quizzer is someone who isn't just content being a passive consumer of c
 
 Memorising country capitals, flags, currencies (though these may be useful sometimes) isn't what quizzing is all about. Your school quizzes are a very poor indication of what actual quizzing is like.
 
-It's a myth that quizzes are **all** about trivia. A good quiz tests a person's abillity to guess or logically work their way to an answer given multiple clues, assuming a certain level of familiarity with the cultural context. That assumed level of familiarity varies from quiz to quiz; an Inter IIT Cult Meet quiz will probably require a higher width and depth of knowledge than a Freshers' Quiz. But in both, just knowing stuff won't take you too far; you'll need to eliminate, make logical leaps of faith, and find connections between seemingly unrelated things.
+It's a myth that quizzes are **all** about trivia. A good quiz tests a person's abillity to guess or logically work their way to an answer given multiple clues, assuming a certain level of familiarity with the cultural context. That assumed level of familiarity varies from quiz to quiz; an Inter IIT Cult Meet quiz will probably require a greater width and depth of knowledge than a Freshers' Quiz. But in both, just knowing stuff won't take you too far; you'll need to eliminate, make logical leaps of faith, and find connections between seemingly unrelated things.
 
 Let's take an example question (entirely original):
 
