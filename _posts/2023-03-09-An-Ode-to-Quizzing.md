@@ -1,4 +1,4 @@
-Quizzing is a peculiar hobby, and an uncommon one. It is therefore no surprise that it does not have weighty volumes written on its purpose or philosophy, unlike art or music or possibly, whatever it is that they do at the campus literary society (literary criticism or production isn't one of their fortes).
+Quizzing is a peculiar hobby, and an uncommon one. It is therefore no surprise that it does not have weighty volumes written on its purpose or philosophy, unlike art or music or possibly, whatever it is that they do at the campus literary society (literary criticism or production aren't amongst their fortes).
 
 Quizzing is also, by chance, my oldest hobby. I participated in (and won) my first quiz at age five. Here's pictorial proof (I'm the one on the right):
 
