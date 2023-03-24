@@ -14,7 +14,7 @@ I'm certain most people, aesthetics connoiseurs or not, would agree that academi
 
 ![](https://upload.wikimedia.org/wikipedia/commons/e/e7/IIT_Kanpur_Faculty_Building.JPG)
 
-The problem with the PKK library isn't unique. It faces stiff competition for the title of most unappealing building, including from the above featured Faculty Building, whose cute spiral staircase is the one saving grace in an otherwise soul-crushing labyrinthine leviathan[^2]. This is because these structures were designed according to a common aesthetic style designed by a certain Achyut Kanvinde [^3].
+The problem with the PKK library isn't unique. It faces stiff competition for the title of most unappealing building, including from the above featured Faculty Building, whose cute spiral staircase is the one saving grace in an otherwise soul-crushing labyrinthine leviathan[^2]. This is because these structures were designed according to a common aesthetic style by a certain Achyut Kanvinde [^3].
 
 ![](https://thumbs.dreamstime.com/z/under-construction-residential-apartment-india-under-construction-multi-story-high-rise-residential-apartment-india-151703713.jpg)
 
