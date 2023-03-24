@@ -10,7 +10,7 @@ I readily admit that I don't even possess enough technical knowledge about archi
 
 ***
 
-I'm certain most people, aesthetics connoiseurs or not, would agree that academic buildings at IITK are gloomy. I'm sure some of it has to do with the fact that academic buildings are associated with, well, academics. Regardless, I'd like to extrapolate this general statement about *vibe* to a more specific observation; academic building architecture at IITK is gloomy and soulless (excluding a few new buildings like the aforementioned new lecture hall complex). 
+I'm certain most people, aesthetics connoiseurs or not, would agree that the old academic buildings at IITK are gloomy. I'm sure some of it has to do with the fact that academic buildings are associated with, well, academics. Regardless, I'd like to extrapolate this general statement about *vibe* to a more specific observation; academic building architecture at IITK is gloomy and soulless (excluding a few new buildings like the aforementioned new lecture hall complex). 
 
 ![](https://upload.wikimedia.org/wikipedia/commons/e/e7/IIT_Kanpur_Faculty_Building.JPG)
 
@@ -42,6 +42,8 @@ As is obvious by now, I don't consider the design and architectural style of the
 	... the horrors of Le Corbusier’s favorite material, reinforced concrete, which does not age gracefully but instead crumbles, stains, and decays.
 
 I don't mind brickwork as much- it at least has some character, some colour, some earthy flavour like the kulhars used for serving chai. If used well, it has an effect not dissimilar to sandstone. Exposed cement, on the other hand, is barely tolerable when fresh, and plain horrendous in a state of weathered decay in a clime like North India's. The library can not be demolished, I suppose, so the next best thing would be to paint it like the new academic area buildings. 
+
+![](http://www.iitk.ac.in/doaa/images/slider/Img-1.jpg)
 
 *** 
 
