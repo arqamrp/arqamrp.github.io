@@ -60,6 +60,7 @@ My personal favourite is the architectural aesthetic of BHU, which draws from mu
 ***
 
 Recommended reading:
+
 [Brutalist architecture](https://en.wikipedia.org/wiki/Brutalist_architecture)
 
 [The Architect as Totalitarian](https://www.city-journal.org/html/architect-totalitarian-13246.html)
