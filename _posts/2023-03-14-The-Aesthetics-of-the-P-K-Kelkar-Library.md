@@ -59,12 +59,17 @@ My personal favourite is the architectural aesthetic of BHU, which draws from mu
 
 Recommended reading:
 [Brutalist architecture](https://en.wikipedia.org/wiki/Brutalist_architecture)
+
 [The Architect as Totalitarian](https://www.city-journal.org/html/architect-totalitarian-13246.html)
+
 [Negotiating the International and the Local: A Reading of Achyut Kanvinde’s Indian Institute of Technology Campus, Kanpur (1960-1967) and Campus Design in India (1969)](http://sahanz2015.be.unsw.edu.au/papers/Sane_Negotiating-the-International-and-the-Local.pdf)
+
 [Villa Savoye](https://www.khanacademy.org/humanities/ap-art-history/later-europe-and-americas/modernity-ap/a/corbusier-savoye)
 
 ***
 
 [^1] For the record, I smelt bullshit on day zero and found out PK Kelkar's real daughter's name within a fortnight of the incredulous narration.
+
 [^2] I somehow manage to lose my way every time I go there
+
 [^3] a fellow Kokani
