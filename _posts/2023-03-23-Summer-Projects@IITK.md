@@ -1,4 +1,4 @@
-The system of summer projects at IIT Kanpur is, by and large, a sham. It is a sloth race to determine who can get brownie points to pad (sometimes fill) up their resume with the least amount of effort possible. Now, I myself am guilty of having padded up my CV with this and do not really fault other freshers who did so out of inexperience. But there's a whole system built around it that builds up the illusion of productivity in clubs and individuals while they do absolutely zilch. I do not claim there aren't ANY worthy projects; there are. Just that a large number of them clearly aren't.
+The system of summer projects at IIT Kanpur is, by and large, a sham. It is a sloth race to determine who can get brownie points to pad (sometimes fill) up their resume with the least amount of effort possible. Now, I myself am guilty of having padded my CV with this and do not really fault other freshers who did so out of inexperience. But there's a whole system built around it that builds up the illusion of productivity in clubs and individuals while they do absolutely zilch. I do not claim there aren't ANY worthy projects; there are. Just that a large number of them clearly aren't.
 
 So let me illustrate my hypothesis with some examples; a cell recently announced projects, including one on NLP. One of the mentors is my friend, and we were kidding around when someone asked him the full form of NLP in jest. "Non Linear Programming", he replied, with the confidence of a politician. Now, I have nothing against nonlinear programming- it's a very important class of optimisation problems, and could have a great case to being an alternative full form of NLP. But given that the project was about tweets and sentiment analysis, it's *really* unlikely they'd use constraints and objective functions and the like. My primary aim here isn't to discuss incompetence, but apathy.
 
@@ -23,16 +23,17 @@ Here's a transcript of my chat with one of the mentors, a day or two before the 
 >[22/6/2022, 14:45] X: Sorry
 >[22/6/2022, 14:45] X: Its emotion classifier
 
-To be clear, this doesn't accurately represent the mentor's expertise; I know for a fact that he is knowledgeable and experienced and this was probably just a case of him not paying much attention towards the project. That apathy is precisely where the problem lies.
+To be clear, this doesn't accurately represent the mentor's expertise; I know for a fact that he is knowledgeable and smart and this was probably just a case of him not paying much attention towards the project. That apathy is precisely where the problem lies.
 
 All this isn't trivial; these projects, being the first exposure of many IITK students to many domains, are quite important. One of my best friends here developed a deep contempt for machine learning as a result of his Stamatics summer project on deep learning.
 
 Here are some suggestions:
+
 - There should be a clear bifurcation between projects involving actual development/building and tangible outcomes, and those targeted towards learners, with resources and exercises for self-learning, with the tasks mostly meant to be done by individuals for their own epistemic benefit. A learning project of the type in vogue is less a 'project' than a Coursera course is.
 
 - Newbies shouldn't be allowed in the former. Enthu is all fine and good but generally, a person, even one at an IIT, isn't good enough to contribute in a major way to something nontrivial he had no idea about before the summer started.
 
-- There should be some sort of mandatory discussion sessions for the latter, with the mentees being encouraged to bond and learn together as a cohort. 
+- There should be some sort of mandatory (OFFLINE) discussion sessions for the latter, with the mentees being encouraged to bond and learn together as a cohort. 
 
 - The system of ratification for learning projects should be done away with and students should be encouraged to build something small but unique/original as a self-made project related to the stuff learned.
 
