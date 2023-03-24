@@ -13,14 +13,23 @@ I learned next to nothing in this "project", or the similar Stamatics one I took
 
 Here's a transcript of my chat with one of the mentors, a day or two before the midterm eval:
 >[21/6/2022, 18:10] Me: Also about the ppt, could you help me a bit about what exactly I could write in future predictions/plans?
+>
 >[21/6/2022, 18:20] X: Yeah sure
+>
 >[21/6/2022, 18:21] X: Just present what we told in the introductory slides
+>
 >[21/6/2022, 18:21] X: We will be doing transformers and implement emoji classifier
+>
 >[21/6/2022, 18:58] Me: Ok thanks a lot
+>
 >[21/6/2022, 19:48] Me: Hi, just wanted to confirm this since the ppt says emotion classifier; is the sentiment analysis model we're going to implement for natural language or emojis?
+>
 >[21/6/2022, 21:35] X: Emoji classifier
+>
 >[22/6/2022, 14:15] Me: Sorry I'm still a bit confused; will we be classifying emoji images according to emotion or display the emoji corresponding to the emotion displayed in the sentence?
+>
 >[22/6/2022, 14:45] X: Sorry
+>
 >[22/6/2022, 14:45] X: Its emotion classifier
 
 To be clear, this doesn't accurately represent the mentor's expertise; I know for a fact that he is knowledgeable and smart and this was probably just a case of him not paying much attention towards the project. That apathy is precisely where the problem lies.
