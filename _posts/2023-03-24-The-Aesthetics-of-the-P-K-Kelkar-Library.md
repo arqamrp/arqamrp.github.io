@@ -22,7 +22,7 @@ The unfinished building in this image could be plausibly mistaken for an academi
 
 ![](https://static3.bigstockphoto.com/3/0/2/large1500/203252125.jpg)
 
-Separately, it also reminds me of the naked cityscapes of the impoverished quarters of Northern Indian towns, which can be observed in nearby Nankari. In a way, for an institution squarely in the Indian heartland, it is fitting, but at any rate it is hardly a very flattering reminiscence.
+Separately, it also reminds me of the naked cityscapes of the impoverished quarters of Northern Indian towns, which can be observed in nearby Nankari. In a way, for an institution squarely in the Indian heartland, it is fitting, but in any case it is hardly a very flattering reminiscence.
 
 Indeed, part of why it fails so miserably is that in today's India, this aesthetic isn't unique or unparalleled. There is no element of brutalist surprise that might be due if such a building were encountered in the Global North. Indeed, in the India of the 60s, such a building might have even evoked a sense of awe at the rawness, and the simultaneous modernity and earthiness of the imposing masonry. But that was an India of thatched huts, Mughal monuments and colonial colossi, not one where brickwork and cement came to symbolise half-fulfilled dreams.
 
@@ -55,7 +55,7 @@ The relative absence of concrete, the use of circular elements, and the large wi
 
 ![](https://www.iitbhu.ac.in/contents/iitbhu/img/slider/iit_bhu_slider_03.jpg)
 
-My personal favourite is the architectural aesthetic of BHU, which draws from multiple architectural traditions- the Hindu rajwadas and mandirs, the Indo-Saracenic (aka Indo-Gothic or Neo-Mughal) revivalist style, and some simplifying influence of modernist architecture. 
+My personal favourite amongst the institutions I have visited is the architectural aesthetic of BHU, which draws from multiple architectural traditions- the Hindu rajwadas and mandirs, the Indo-Saracenic (aka Indo-Gothic or Neo-Mughal) revivalist style, and some simplifying influence of modernist architecture. 
 
 ***
 
