@@ -24,7 +24,7 @@ The unfinished building in this image could be plausibly mistaken for an academi
 
 Separately, it also reminds me of the naked cityscapes of the impoverished quarters of Northern Indian towns, which can be observed in nearby Nankari. In a way, for an institution squarely in the Indian heartland, it is fitting, but in any case it is hardly a very flattering reminiscence.
 
-Indeed, part of why it fails so miserably is that in today's India, this aesthetic isn't unique or unparalleled. There is no element of brutalist surprise that might be due if such a building were encountered in the Global North. Indeed, in the India of the 60s, such a building might have even evoked a sense of awe at the rawness, and the simultaneous modernity and earthiness of the imposing masonry. But that was an India of thatched huts, Mughal monuments and colonial colossi, not one where brickwork and cement came to symbolise half-fulfilled dreams.
+Indeed, part of why it fails so miserably is that in today's India, this aesthetic isn't unique or unparalleled. There is no element of brutalist surprise that might be due if such a building were encountered in the Global North. Indeed, in the India of the 60s, such a building might have even evoked a sense of awe at the rawness, and at the simultaneous modernity and earthiness of the imposing masonry. But that was an India of thatched huts, Mughal monuments and colonial colossi, not one where brickwork and cement came to symbolise half-fulfilled dreams.
 
 ***
 
