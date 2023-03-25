@@ -30,7 +30,7 @@ Indeed, part of why it fails so miserably is that in today's India, this aesthet
 
 The library makes exclusive use of rectangular, functional elements and takes pride in unpretentiousness and simplicity. It reflects the zeitgeist of its time well, with its emphasis on production, industry and functionalism inspired in part by the Soviet model, with a yearning for the new and the modern, and detachment from the past.
 
-It does appeal to a certain set of people who, probably as an acquired taste, like the architect and ideologue Le Corbusier, who some Indians would know by virtue of his 'involvement' with Chandigarh. Since this is not a diss piece on le Corbusier and he isn't directly responsible for the eyesore of interest, suffice it to say that I, and many others[^], hold him responsible for a lot of the soullessness plaguing the cityscapes of today. 
+It does appeal to a certain set of people who, probably as an acquired taste, like the architect and ideologue Le Corbusier, who some Indians would know by virtue of his 'involvement' with Chandigarh. Since this is not a diss piece on le Corbusier and he isn't directly responsible for the eyesore of interest, suffice it to say that I, and many others, hold him responsible for a lot of the soullessness plaguing the cityscapes of today. 
 
 ![Ville Savoye](https://cdn.kastatic.org/ka-perseus-images/889d4b84b5d369689745b2441c7427e07089bef5.jpg)
 
@@ -39,7 +39,7 @@ Le Corbusier's Villa Savoye, which might be one of the inspirations for the libr
 The brick and concrete surface evokes the same emotions evinced by the sight of a flayed corpse, and not just because of the similar colour palette. Adobe and cement, flesh and sinew, are indeed raw and fascinating, but for the aesthetic good health of civilisation best left covered by hide or shroud.
 
 As is obvious by now, I don't consider the design and architectural style of the library itself too appealing. However, I doubt I'd have paid as much heed if there were a semblance of upkeep. Non-maintenance and neglect, or maybe just the inevitable corrosion by the sands of the eternal hourglass of time, gives the buildings the feel of decaying ruins, replete with discolouration. I couldn't agree more with the cultural critic Theodore Dalrymple when he speaks of
-	... the horrors of Le Corbusier’s favorite material, reinforced concrete, which does not age gracefully but instead crumbles, stains, and decays.
+>... the horrors of Le Corbusier’s favorite material, reinforced concrete, which does not age gracefully but instead crumbles, stains, and decays.
 
 I don't mind brickwork as much- it at least has some character, some colour, some earthy flavour like the kulhars used for serving chai. If used well, it has an effect not dissimilar to sandstone. Exposed cement, on the other hand, is barely tolerable when fresh, and plain horrendous in a state of weathered decay in a clime like North India's. The library can not be demolished, I suppose, so the next best thing would be to paint it like the new academic area buildings. 
 
