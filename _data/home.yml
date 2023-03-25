@@ -11,9 +11,6 @@ navbar_entries:
   - title: logs 
     url: logs
    
-  - title: CV
-    url: https://drive.google.com/file/d/1enzAFk3koKbtmZByUv2_nYXFYjOssyuI/view?usp=sharing
-  
   - title: contact
     url: /#myfooter
   
