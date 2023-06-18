@@ -51,7 +51,7 @@ But even without this knowledge, with only layman knowledge and basic logic and 
 Any competitive hobby, in the end, is a sport, of the mind, body or both. Every sport rewards and in turn reinforces (and selects for) certain traits and behaviours. In the case of quizzing:
 - It strongly encourages inquisitiveness, aka curiosity. Duh.
 - It encourages exploring diverse things. 
-- it incentivises consuming good works ; reading good books, listening to great music (I've watched more good movies after starting MELA quizzing than before; as they say, there's no better read/watch/play list than a good MELA - Music, Entertainment, Literature, Arts- quiz)
+- It incentivises consuming good works ; reading good books, listening to great music (I've watched more good movies after starting MELA quizzing than before; as they say, there's no better read/watch/play list than a good MELA - Music, Entertainment, Literature, Arts- quiz)
 - It rewards the ability to find parallels and connections between things. If not new brain cells, you'll at least build a few synapses along the way. (Did you know that you can only ever lose brain cells; they stop reproducing after birth.)
 - It rewards good memory. Memory is underrated as an asset.
 - It rewards quick information recall.
