@@ -19,6 +19,10 @@ project_entries:
   - title:  Markoff
     url: https://arqam.shinyapps.io/markoff
     desc: A simple webapp where you can play around with Markov Chains.
+  
+  - title: miniML.jl
+    url: https://github.com/arqamrp/miniML.jl
+    desc: a minimal tensor autograd library in Julia
 
 
 old_project_entries:
@@ -28,15 +32,17 @@ old_project_entries:
 
   - title: Serious mathematics on a recreational algorithm
     url: https://www.parabola.unsw.edu.au/2020-2029/volume-56-2020/issue-3/article/computational-and-mathematical-analysis-convergent
-    desc: Take any number, count its spelling length, repeat 1st step with it. You always get 4.
+    desc: Take any number, count its spelling length, repeat 1st step with it. You always get 4. Proved.
 
-  - title: Moonwalk
-    url: https://github.com/abhinavs/moonwalk
-    desc: A fast and minimalist Jekyll blog theme with clean dark mode
+  - title: Sentiment analysis using LSTMs
+    url: https://huggingface.co/spaces/patellae/Sentimental_Analysis_From_Scratch_Using_Stacked_LSTMs
+    desc: A stacked LSTM for sentimental analysis that I trained from scratch
 
-  - title: Humangous
-    url: https://www.humangous.co
-    desc: The better people know you, the better they collaborate
+  - title: Coalfield pollution data dashboard
+    url: http://arqam.shinyapps.io/tseries/
+    desc: A dashboard for visualizing and analysing levels of 10 pollutants over 3 months at SIngrauli coalfield.
+
+  - title: 
 
 footer_entries:
 
