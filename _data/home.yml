@@ -24,15 +24,12 @@ project_entries:
     url: https://github.com/arqamrp/miniML.jl
     desc: a minimal tensor autograd library in Julia
 
+  - title: Sampling Dynamic 
+    url: https://huggingface.co/spaces/patellae/sampling-dynamic-cont
+    desc: a minimal tensor autograd library in Julia
+
 
 old_project_entries:
-  - title: Some random plots on MOOCs
-    url: https://arqam.shinyapps.io/final/
-    desc: A mediocre Shiny App on data scraped from NPTEL, Coursera and edX. Made for MTH208 in a single day in what was meant to be a group project.
-
-  - title: Serious mathematics on a recreational algorithm
-    url: https://www.parabola.unsw.edu.au/2020-2029/volume-56-2020/issue-3/article/computational-and-mathematical-analysis-convergent
-    desc: Take any number, count its spelling length, repeat 1st step with it. You always get 4. Proved.
 
   - title: Sentiment analysis using LSTMs
     url: https://huggingface.co/spaces/patellae/Sentimental_Analysis_From_Scratch_Using_Stacked_LSTMs
@@ -42,7 +39,13 @@ old_project_entries:
     url: http://arqam.shinyapps.io/tseries/
     desc: A dashboard for visualizing and analysing levels of 10 pollutants over 3 months at SIngrauli coalfield.
 
-  - title: 
+  - title: Some random plots on MOOCs
+    url: https://arqam.shinyapps.io/final/
+    desc: A mediocre Shiny App on data scraped from NPTEL, Coursera and edX. Made for MTH208 in a single day in what was meant to be a group project.
+
+  - title: Serious maths on a funny algorithm
+    url: https://www.parabola.unsw.edu.au/2020-2029/volume-56-2020/issue-3/article/computational-and-mathematical-analysis-convergent
+    desc: Take any number, count its spelling length, repeat 1st step with it. You always get 4. Proved.
 
 footer_entries:
 
