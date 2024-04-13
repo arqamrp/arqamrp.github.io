@@ -26,7 +26,7 @@ project_entries:
 
   - title: Sampling Dynamic 
     url: https://huggingface.co/spaces/patellae/sampling-dynamic-cont
-    desc: a minimal tensor autograd library in Julia
+    desc: Traces evolution of a population in a  coordination game
 
 
 old_project_entries:
