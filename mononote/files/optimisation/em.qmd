@@ -1,0 +1,9 @@
+# Expectation Maximisation
+
+## Minoriser-Maximisation
+
+**Minoriser-Maximisation** is a class of iterative optimisation methods useful for convex objective functions. 
+
+Say we have a concave function $f$ that we want to maximise. Magically, we have some way of computing a local surrogate function $g(\theta| \theta^{(i)})$ that gives us a given the value of the current iterate $\theta^{(i)}$. This surrogate function is a **minoriser** of our objective function, i.e. the local surrogate at every point is 
+
+ We start off at some point $\theta^{(0)}$. 

@@ -1,0 +1,17 @@
+{
+  "hash": "ac52d30a51ba1dfde1f2737d34d0df4a",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# Normalising constant estimation using importance sampling\n\nSuppose we have two unnormalised probability densities, $f(x)$ and $g(x)$ corresponding to distributions $F$ and $G$. We can compute the ratio of their normalising constants if we have samples from one of them. (Can we get a better estimator if we have samples from both??)\n\n$$Z_2 = \\int g(x) dx$$\n\nand $$\\tilde g(x) = \\frac{g(x)}{Z_2}$$\n\nNow,\n\\begin{align*}\nZ_1 &= \\int f(x) dx\\\\\n&= \\int \\frac{f(x)}{g(x)} g(x) dx \\\\\n&= Z_2 \\cdot \\int \\frac{f(x)}{g(x)} \\tilde g(x) dx \\\\\n\\frac{Z_1}{Z_2} &= \\mathbb E_{G} \\Bigg[\\frac{f(X)}{g(X)}\\Bigg] = q_{1,2}\n\\end{align*}\n\nThis is an expectation with respect to the distribution G. If we have samples $x_1, x_2 \\dots x_N \\sim G$, we can estimate $q_{1,2}$ using\n\n$$\\hat q_{1,2} = \\frac{1}{N} \\sum_{i=1}^{N} w(x_i) $$\n\nwhere $w(x_i) = \\frac{f(x_i)}{g(x_i)}$ is identical to the self-normalised importance sampling weights.\n\nSimilarly,\n$$\\frac{Z_2}{Z_1} = \\mathbb E_{F} \\Bigg[\\frac{g(Y)}{f(Y)}\\Bigg] = q_{2,1}$$ \n\nThis is an expectation with respect to the distribution F. If we have samples $y_1, y_2, \\dots y_M \\sim F$, we can estimate $q_{2,1}$ using:\n\n$$\\hat q_{2,1} = \\frac{1}{M} \\sum_{i=1}^{M} v(y_i)$$ where $v(y_i) = \\frac{g(y_i)}{f(y_i)}$\n\n\nSuppose we know one of the normalising constants by analytical integration or some other way, say $Z_2$. Then we can easily come up with an estimate of the other using our estimate of the ratio. $$\\hat Z_1 = \\hat q_{1,2}\\cdot Z_2$$\n\nIt would be interesting to see if the estimator $\\hat q = \\sqrt{\\frac{\\hat q_{1,2}}{\\hat q_{2,1}}}$ is a better estimator of the ratio $q_{1,2}$ than just $\\hat q_{1,2}$.\n\nWell it appears- not quite.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n### F ~ N(0, 1), G ~ N(0, 4)\n\nset.seed(42)\nsigma_1 <- 1\nsigma_2 <- 2\n\nN <- 1000\nn <- 10000\n\nQ <- rep(0, n)\nQ_fw <- rep(0, n)\nQ_bw <- rep(0, n)\n\nfor(i in 1:n){\n  X <- rnorm(N, 0, sd = sigma_2) # ~G\n  Y <- rnorm(N, 0, sd = sigma_1) # ~F\n  \n  q_12 <- mean(exp(-0.5*X^2/sigma_1^2)/exp(-0.5 * X^2/sigma_2^2))\n  q_21 <- mean(exp(-0.5*Y^2/sigma_2^2)/exp(-0.5 * Y^2/sigma_1^2))\n  q <- sqrt(q_12/q_21)\n\n  Q[i] <- q\n  Q_fw[i] <- q_12\n  Q_bw[i] <- 1/q_21\n}\n\n# compute densities\ndQ    <- density(Q)\ndQ_fw <- density(Q_fw)\ndQ_bw <- density(Q_bw)\n\nplot(dQ_fw, col = \"orange\", lwd = 2,\n     main = \"Distribution of Q, Q_fw, and Q_bw\",\n     xlab = \"Value\", ylab = \"Density\", xlim = c(0.4, 0.6), ylim = c(0, 35))\n\nabline(v = 0.5)\nlines(dQ, col = \"brown\", lwd = 2)\nlines(dQ_bw, col = \"red\", lwd = 2)\n\nlegend(\"topright\", legend = c(\"Q_fw\", \"Q\", \"Q_bw\", \"truth\"),\n       col = c(\"orange\", \"brown\", \"red\", \"darkgreen\"), lwd = 2, bty = \"n\")\n```\n\n::: {.cell-output-display}\n![](5_norm_constant_est_IS_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\nIt appears we've been trying to reinvent the wheel: see @newtonraftery\n",
+    "supporting": [
+      "5_norm_constant_est_IS_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

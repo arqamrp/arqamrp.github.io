@@ -1,0 +1,67 @@
+---
+title: "Why I care about SMC"
+author: "Arqam Patel"
+format: beamer
+---
+
+# I Don't
+
+## Bayesian inference
+
+Suppose we have some data $\mathbf X = X_1, X_2 \dots X_n$. 
+
+We also have a model that relates our data to some model parameters via a likelihood function $f(x | \theta)$. 
+We have some prior probability distribution $\pi_0(\theta)$ encoding our a priori belief about where/how $\theta$ might be distributed.
+
+We can encapsulate our belief about the parameter in the posterior probability distribution:
+
+$$\pi(\theta|\mathbf X) = \frac{\pi_0(\theta) \cdot f(\mathbf X | \theta) }{\int \pi_0(\theta) \cdot f(\mathbf X | \theta) d\theta }$$
+
+## Things we might be interested in
+
+### The probability density
+
+This posterior probability density we saw is in general intractable, because we don't (currently) have any idea about the integral term in the denominator.
+
+### The marginal likelihood
+
+The denominator term is a really useful thing to have because it quantifies the *marginal likelihood* or *model evidence*. This essentially tells us how well our model fits the data. 
+
+$$p(\mathbf X | \mathcal M) = \int_{\theta \in \Theta}  f(\mathbf X | \theta, \mathcal M) \cdot \pi_0(\theta | \mathcal M)  d\theta$$
+
+### The posterior mean
+$$\mathbb E_{\theta \sim \pi(\cdot|\mathbf X)} [\theta]$$
+
+
+
+## Other things we might be interested in
+
+### The posterior variance
+$$ \mathbb E_{\theta \sim \pi(\cdot|\mathbf X)} [\theta^2] - \big(\mathbb E_{\theta \sim \pi(\theta|\mathbf X)} [\theta]\big)^2$$
+
+### Extreme value probabilities
+$$\mathbb P (\theta > c | \mathbf X) = \mathbb E _{\theta \sim \pi(\cdot|\mathbf X)}[\mathbb I(\theta > c)] $$
+
+### Expectations
+In general we want to evaluate expectations wrt the posterior .
+
+## Another thing we might want
+
+### Posterior predictive distribution
+$$\mathbb P(y| \mathbf X, \mathcal M) = \int_{\Theta} f( y |\theta, \mathcal M) \cdot \pi(\theta| \mathbf X, \mathcal M) d\theta $$
+
+## Monte Carlo Integration
+
+Suppose we have $N$ i.i.d. samples $\theta_1, \dots \theta_N$ from a distribution with density $f(\theta)$.
+
+By the law of large numbers, we can get a consistent estimator of the expectation of any function $a(\theta)$ w.r.t. $f$.
+
+By the law of large numbers, as ${n\rightarrow \infty}$:
+
+$$ \frac{1}{N} \sum_{i=1}^{N} a(\theta_i) \rightarrow \mathbb E_{\theta \sim f(\cdot)}[a(\theta)] $$
+
+
+
+
+
+

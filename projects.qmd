@@ -1,0 +1,22 @@
+
+---
+title: "Projects"
+---
+
+## Undergrad projects
+
+- [Multi armed bandits with ordinal feedback](/ugp/Bandits.pdf)
+
+- [Markov chain sampling from the optimal importance sampling distribution](/ugp/MCMC-IS.pdf)
+
+- [Variational learning of the cavity distribution for federated generalised variational inference](/ugp/Variational_Cavity_Learning_for_Federated_GVI.pdf)
+
+- [Stable equilibria in a non-uniform sampling dynamic in evolutionary game theory](/ugp/Evolutionary_game_theory.pdf)
+
+- [An autodiff package in Julia to teach myself about autodiff and Julia](https://github.com/arqamrp/miniML.jl)
+
+- [An R package and Shiny app for computing Markov chain properties to help verify homework and practice making Shiny apps](https://github.com/arqamrp/markoff)
+
+## High school tomfoolery/My introduction to LaTeX
+
+- [Take any number, count its spelling length, repeat. You'll end up at 4.](/ugp/vol56_no3_4.pdf)

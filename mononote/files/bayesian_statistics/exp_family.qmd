@@ -1,0 +1,141 @@
+# Bayesian modelling with exponential family distributions
+
+Mostly from @exp_blei and @exp_jordan.
+
+## The exponential family
+
+The exponential family is a group of distributions whose probability density or mass functions are of the form: 
+$$ p( x | \eta ) = h(x) \exp \left( \eta^\top t(x) - a(\eta) \right)$$
+
+Here, $t(x)$ is the sufficient statistic, which is a vector of functions of $x$, $\eta$ is the "natural parameter" of the exponential family, $a(\eta)$ is the log normalizer and $h(x)$ is the base measure.
+
+### Example: Poisson distribution
+
+For example, consider the Bernoulli distribution
+\begin{align*}
+p(x | \pi) &= \pi ^ x (1 - \pi)^{1-x} \\
+&= \exp \left( x \log \pi + (1-x) \log (1- \pi) \right) \\
+&= \exp \left( ( \log \pi - \log (1- \pi)) x + \log (1- \pi) \right) \\
+&= \exp \left(  x \log \frac \pi {1- \pi}  + \log (1- \pi) \right) \\
+\end{align*}
+
+Plugging everything into the exponential family template, $h(x) = 1$, $t(x) = x$, $\eta = \log \frac \pi {1- \pi}$, and $a(\eta) = -\log (1 - \pi)$. Notice that the natural parameter here is log-odds of success.
+
+### Example: Gaussian distribution
+
+Another example is the Gaussian distribution:
+\begin{align*}
+p(x | \mu, \sigma^2) &= \frac{1}{\sqrt {2 \pi \sigma^2}} \exp \left( \frac{- (x- \mu)^2}{2 \sigma^2}  \right) \\
+&= \frac{1}{\sqrt {2 \pi \sigma^2}} \exp \left( \frac{- x^2 + 2 \mu x - \mu^2}{2 \sigma^2}  \right) \\
+\end{align*}
+
+Here, $t(x) = \begin{bmatrix}  x^2 \\ x \end{bmatrix}$, $h(x) = \frac{1}{\sqrt 2 \pi}$, $\eta = \begin{bmatrix} \frac{-1}{2\sigma^2}\\ \frac{\mu}{\sigma^2}  \end{bmatrix}$, and $a(\eta) =   \frac{1}{2} \log \sigma^2 + \frac{\mu^2}{\sigma^2}$
+
+## Moments of exponential family distributions
+
+An interesting property of exponential family distributions is that the $i$th order derivative of the log normaliser $a(\eta)$ gives us the ith order moment of the sufficient statistics $t(x)$.
+
+\begin{align*}
+\nabla_\eta a(\eta) &= \nabla_\eta \left(\log \int h(x) \exp (\eta^\top t(x)) dx\right)\\
+&= \frac{\nabla_\eta \int h(x) \exp (\eta^\top t(x)) dx  }{\int h(x) \exp (\eta^\top t(x)) dx } \\
+&=  \int t(x) \frac{  h(x) \exp (\eta^\top t(x))   }{\int h(x) \exp (\eta^\top t(x)) dx }dx \\
+&= \mathbb E _{X\sim f(\cdot|\eta)}[t(X)]
+\end{align*}
+
+
+## Conjugate priors of exponential family distributions
+
+Let's say we are performing Bayesian inference for a well specified problem, with data $x_{1:n}$ and parameter of interest $\eta$. Each datapoint $x_i$ is iid distributed as $G(\cdot | \eta)$.
+
+We assume the prior $\eta \sim F(\cdot | \lambda)$. By the Bayes theorem, we obtain the posterior conditioned on the observed data as $$p( \eta |x_{1:n},  \lambda) \propto F(\eta | \lambda) \prod_{i=1}^{n} G(x_i |\eta)$$.
+
+If the posterior is the same type of distributions as the prior i.e. it is of the form $F(\cdot | \lambda')$ for some $\lambda'$, then we say $F$ and $G$ are a conjugate pair. The family $F$ is said to be the conjugate prior for likelihoods from the distribution type $G$.
+
+**Every exponential family likelihood has a conjugate prior.**
+
+Suppose we model the likelihood with a general exponential family distribution:
+$$f(x | \eta) = h(x) \exp(\eta^\top t(x) - a(\eta))$$
+Then the conjugate prior (also an exponential family distribution, over $\eta$) is:
+$$\pi(\eta | \lambda) = h_c(\eta) \exp( \lambda_1^\top \eta - \lambda_2 a(\eta)  - a_c(\lambda)))$$
+
+where the natural parameter for $\eta$'s distribution is $\lambda = [\lambda_1, \lambda_2 ]$ with dimension dim($\eta$) + 1 and sufficient statistic is $[\eta , -a(\eta)]$.
+
+### Example: Gaussian
+
+Consider a unit variance Gaussian centred at $\mu$.
+$$p(x | \mu) = \frac{1}{\sqrt{2 \pi}} \exp\left(\frac{-x^2}{2}\right) \cdot \exp (\mu x - \mu^2/2)$$
+
+Here, $\eta = \mu$, $t(x) = x$, $h(x) = \frac{1}{\sqrt{2 \pi}} \exp\left(\frac{-x^2}{2}\right)$ and $a(\eta) = \mu^2/2 = \eta^2 /2$
+
+The conjugate prior is:
+$$\pi(\eta | \lambda) \propto \exp \left( \lambda_1 ^\top \eta + \lambda_2 a(\eta) \right) = h_c(\eta) \cdot \exp\left( \lambda_1 \mu - \lambda_2 \frac{\mu^2}{2} - a_c(\lambda) \right) $$
+As can be inferred from its sufficient statistic, this is again a Gaussian.
+
+## Posterior with conjugate prior
+
+Using such a conjugate prior, we can get a posterior belonging to the same exponential family type as the prior. The general form is:
+
+\begin{align*}
+p( \eta |x_{1:n},  \lambda) &\propto \pi(\eta | \lambda) \prod_{i=1}^{n} f(x_i | \eta)\\
+&\propto h_c(\eta) \exp( \lambda_1^\top \eta - \lambda_2 a(\eta)  - a_c(\lambda))) \cdot \prod_{i=1}^{n}  h(x_i) \exp(\eta^\top t(x_i) - a(\eta))\\
+&\propto h_c(\eta) \exp( \lambda_1^\top \eta - \lambda_2 a(\eta)  - a_c(\lambda))) \cdot \left(\prod_{i=1}^{n}  h(x_i)\right) \exp\left(\sum_{i=1}^{n} \eta^\top t(x_i) - n a(\eta)\right)\\
+&\propto h_c(\eta) \exp\left( \left(\lambda_1 + \sum_{i=1}^{n} t(x_i)\right)^\top \eta - (\lambda_2+n) a(\eta)  \right) 
+\end{align*}
+Thus, the posterior is in the same family as the prior, with updated parameters $\lambda_1' = \lambda_1 + \sum_{i=1}^{n} t(x_i)$ and $\lambda_2' = \lambda_2 + n$
+
+## Posterior predictive with conjugate prior
+
+Further, we can also compute the posterior predictive distribution:
+\begin{align*}
+p(x_{new} | x_{1:n}) &= \int f(x_{new} | \eta) p(\eta | x_{1:n}) d\eta\\
+&\propto \int \exp\left(\eta^\top t(x_{new}) - a(\eta)\right) \cdot \exp\left( \eta ^\top \hat \lambda_1  - \hat \lambda_2 a(\eta)\right) d\eta\\
+&= \frac{ \int \exp\left( \eta ^\top  (\hat\lambda_1+ t(x_{new}))  - (\hat \lambda_2+1) a_c(\eta)\right) d\eta}{\exp a_c(\hat\lambda_1, \hat\lambda_2)}\\
+&= \frac{ \exp a_c(\hat\lambda_1+t(x_{new}), \hat\lambda_2+1) }{\exp a_c(\hat\lambda_1, \hat\lambda_2)} \\
+\end{align*}
+
+The posterior predictive density is the ratio of normalising constants or model evidences! 
+
+In the numerator we have the model evidence corresponding to a hypothetical posterior considering the test location as a new data point, and in the denominator that of the true posterior. This is useful for deriving collapsed Gibbs samplers.
+
+## Canonical prior
+Say we have a simple model for univariate data with one parameter (and a 1D sufficient statistic):
+$$f(x| \eta) =  h(x) \exp \left( \eta x - a(\eta) \right)$$
+
+If we have some prior information about the problem, we would ideally want to set some interpretable conjugate prior for $\eta$.
+
+Suppose we have a hunch that the data should average out to $x_0$, and we can quantify the strength of our belief by assigning our pseudo-observation a weight of $n_0$ (equivalent to $n_0$ observations).
+
+We can use this prior information to set $\lambda_1 = n_0 x_0$ and $\lambda_2 = n_0$. 
+
+To reiterate, we interpret $n_0$ as number of "pseudo observations" informing our prior belief about $\eta$ and $x_0$ as our prior guess of the expectation of $x$.
+
+$$\pi (\eta| x_0, n_0) \propto \exp(n_0 x_0 \eta - n_0 a(\eta)) = \frac{\exp(n_0 x_0 \eta - n_0 a(\eta)}{Z(x_0, n_0)}$$
+where $Z(x_0, n_0) = Z(x_0, n_0)$
+
+### Proof that prior predictive expectation = $x_0$
+
+Let's try to prove that the expected value of the data under the prior is indeed $x_0$. Consider the prior predictive expectation:{Recall that any moment of an exponential family distributed RV can be computed using the corresponding derivative of $a(\eta)$}
+
+\begin{align*}
+\mathbb E_{\eta \sim \pi}\left[ \mathbb E [ X | \eta] \right] &= \frac{1}{Z(x_0, n_0)} \int_{\mathcal I} \pi(\eta|x_0,n_0) \left( \mathbb E_{X\sim f(\cdot | \eta) }[X|\eta]\right)  d\eta\\
+&= \int_{\mathcal I} \frac{\exp(n_0 x_0 \eta - n_0 a(\eta)) }{Z(x_0, n_0)}    a'(\eta) d\eta\\
+\end{align*} 
+Now,
+\begin{align*}
+\frac{d}{d\eta} \exp(n_0 x_0 \eta - n_0 a(\eta)) &= (n_0x_0 - n_0 a'(\eta)) \exp(n_0 x_0 \eta - n_0 a(\eta))\\
+a'(\eta)\exp(n_0 x_0 \eta - n_0 a(\eta)) &= x_0\exp(n_0 x_0 \eta - n_0 a(\eta)) - \frac{1}{n_0}\frac{d\exp(n_0 x_0 \eta - n_0 a(\eta))}{d\eta}
+\end{align*}
+Substituting this back into our expectation:
+\begin{align*}
+\mathbb E_{\eta \sim \pi}\left[ \mathbb E[ X | \eta] \right] &= \int_{\mathcal I} \frac{\exp(n_0 x_0 \eta - n_0 a(\eta)) a'(\eta)}{Z(x_0, n_0)} d\eta\\
+&= \int_{\mathcal I} \frac{x_0\exp(n_0 x_0 \eta - n_0 a(\eta)) - \frac{1}{n_0}\frac{d\exp(n_0 x_0 \eta - n_0 a(\eta))}{d\eta}}{Z(x_0, n_0)} d\eta\\
+&= x_0 \int_{\mathcal I} \frac{\exp(n_0 x_0 \eta - n_0 a(\eta))}{Z(x_0, n_0)} d\eta - \frac{1}{n_0} \int_{\mathcal I} \frac{\frac{d\exp(n_0 x_0 \eta - n_0 a(\eta))}{d\eta}}{Z(x_0, n_0)} d\eta\\
+&= x_0 \cdot 1 - \frac{1}{n_0} \left[\frac{\exp(n_0 x_0 \eta - n_0 a(\eta))}{Z(x_0, n_0)}\right]_{\mathcal I}\\
+&= x_0 - 0\\
+&= x_0
+\end{align*}
+
+Explanation for the second last transition: Since an exponential family distribution has light tails, it decays quickly to $0$ at the boundaries of the domain $\mathcal I$, assumed to be an open set.
+
+Thus, we can see that the expected value of $x$ according to the canonical prior is $x_0$.
+

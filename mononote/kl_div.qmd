@@ -1,0 +1,118 @@
+# Kullback-Leibler Divergence
+
+This quantity aims to measure the difference between two probability distributions.  It is not however symmetrical and is thus not a valid distance metric between probability distributions. It can be interpreted as the information lost when $q$ is used to approximate $p$. 
+
+$$D_{KL}(p||q) = H_q(p) - H(p) =\mathbb E_{p} \Bigg [ \log \frac{p(X)}{q(X)} \Bigg] = \sum p(x) \log \frac{p(x)}{q(x)}$$
+
+It is also known as relative entropy (difference of cross and self entropy). 
+
+Most explanations of KL divergence opt for a more information theoretic intuition which is, at least for me, harder to grasp. However, there also exists a rather neat statistical interpretation in terms of the likelihood that I found in @Shlens14c and is also present in @exp_jordan.
+
+## Statistical interpretation of KL divergence
+
+Say we have a discrete set of outcomes, and a candidate model $q$ for the true underlying distribution. The probability of observing the histogram counts $\mathbf c$ according to our model follows a multinomial distribution:
+$$ L \propto \prod_{i} q_i ^{c_i}$$
+
+But this shrinks multiplicatively as the number of observations grows, so we normalise it to an \textit{average likelihood}:
+$$ \bar L \propto \prod_{i} q_i ^{\frac{c_i}{n}}$$
+
+As we approach infinitely many measurements, $\frac{c_i}{n} \rightarrow p_i$ by the law of large numbers and,
+$$ D_{KL}(p \| q) = - \log \bar L $$
+
+Succinctly put, the KL divergence is the asymptotic value of the negative log "average" likelihood under a model $q$ for data actually from $p$.
+
+If we just consider an unnormalised average likelihood $\prod_{i} q_i ^{\frac{c_i}{n}} \rightarrow \prod_{i} q_i ^{p_i}$, its negative logarithm yields the cross entropy. The two differ only by a constant, the entropy of $q$.
+
+As @exp_jordan says
+> Minimizing the KL divergence to the empirical distribution is equivalent to maximizing the likelihood.
+
+
+## Properties of KL divergence
+
+It satisifes:
+
+- $D_{KL}(p|| q) \geq 0$
+- $D_{KL} (p|| q) = 0 \iff p=q$
+- $D_{KL} (p|| q) \neq D_{KL} (q || p)$ in general
+
+
+### Proof: KL divergence $KL(q\|p)$ is nonnegative
+Recall the inequality $\log t \leq t -1$
+
+\begin{align*}
+\log \frac {p(x)} {q(x)} &\leq \frac{p(x)} {q(x)} -1 \quad \forall x \\
+\\
+\int q(x) \left(\log \frac {p(x)} { q(x)} \right) dx &\leq \int q(x) \left( \frac {p(x)} { q(x)} -1 \right) dx \\
+ &\leq \int p(x)  dx - \int  q(x)   dx \\
+ &\leq 1 - 1 \\
+ &\leq 0 \\
+\end{align*}
+
+Thus, 
+$$KL(q || p) = -\int q(x) \left(\log \frac {p(x)} { q(x)} \right) dx \geq 0$$
+
+
+### Proof of analytical form of KLD between simple MVNs
+
+We want to show:
+$$\textcolor{purple}{ { \text{KL}\left(\mathcal{N}\left((\mu_1, \ldots, \mu_k)^\mathsf{T}, \operatorname{diag} (\sigma_1^2, \ldots, \sigma_k^2)\right) \parallel \mathcal{N}\left(\mathbf{0}, \mathbf{I}\right)\right) = {1 \over 2} \sum_{i=1}^k (\sigma_i^2 + \mu_i^2 - \ln(\sigma_i^2) - 1)}}$$
+
+Since $\Sigma = diag(\sigma^2_1, \dots, \sigma^2_k)$, $|\Sigma| = \prod_{i=1}^{k} \sigma^2_i$ and $\Sigma^{-1} = diag\Big(\frac{1}{\sigma^2_1},\dots, \frac{1}{\sigma^2_k}\Big)$
+
+\begin{align*}
+p( x) &=  \frac{1}{\sqrt{(2 \pi)^k\Big(\prod_{i=1}^{k} \sigma^2_i\Big) }} \exp \left( -\frac{1}{2} \sum_{i=1}^{k} \frac{( {x_i- \mu_i})^2}{\sigma^2_i} \right)\\
+\log p( x) &=  -\frac{1}{2} \left( k\log{({2 \pi) +\sum_{i=1}^{k} \log \sigma^2_i }} + \sum_{i=1}^{k} \frac{( {x_i- \mu_i})^2}{\sigma^2_i} \right)
+\end{align*}
+
+\begin{align*}
+q( x) &=  \frac{1}{\sqrt{(2 \pi)^k }} \exp \left( -\frac{1}{2} \sum_{i=1}^{k} { {x_i}^2} \right)\\
+\log q( x) &=  -\frac{1}{2}\left( k\log (2 \pi) +  \sum_{i=1}^{k} { {x_i}^2} \right)\\
+\end{align*}
+
+\begin{align*}
+D_{KL}(p || q) &= \int p(x) \log \frac{p(x)}{q(x)} dx \\
+&= \int p(x) \left (-\frac{1}{2} \left( k\log{({2 \pi) +\sum_{i=1}^{k} \log \sigma^2_i }} + \sum_{i=1}^{k} \frac{(  {x_i- \mu_i})^2}{\sigma^2_i} \right) + \frac{1}{2}\left(k \log (2 \pi) +  \sum_{i=1}^{k} {  {x_i}^2} \right) \right) dx \\
+&= \frac{1}{2}\textcolor{blue}{ \int p(x) \left (  \sum_{i=1}^{k} {  {x_i}^2}\right) dx} -\frac{1}{2} \textcolor{red}{ \int p(x) \left(\sum_{i=1}^{k} \frac{(  {x_i- \mu_i})^2}{\sigma^2_i} \right)  dx} - \frac{1}{2} \sum_{i=1}^{k} \log \sigma^2_i \\
+\end{align*}
+
+Let's deal with the two integration terms one by one.
+
+Observe that $p(x)$ can be fully factorised into k densities:
+
+\begin{align*}
+p( x) &=  \frac{1}{\sqrt{(2 \pi)^k \prod_{i=1}^{k} \sigma^2_i }} \exp \left( -\frac{1}{2} \sum_{i=1}^{k} \frac{( {x_i- \mu_i})^2}{\sigma^2_i} \right)\\
+p(x_1, x_2 ,\dots x_n)&= \prod _{i=1}^{k} \left [\frac{1}{\sqrt{2 \pi \sigma^2_i}} \exp\left( -\frac{(x_i-\mu_i)^2}{2 \sigma_i^2}  \right) \right]\\
+&= \prod_{i=1}^{k} p_i(x_i)
+\end{align*}
+\begin{align*}
+\int \int \dots \int f(x_j) p(x_1, x_2 ,\dots x_k) dx_1dx_2 \dots dx_k &= \int \int \dots \int f(x_j)  \prod_{i=1}^{k} (p_i(x_i) dx_i )\\
+&= \prod_{i \neq j} \left(\int p_i(x_i) dx_i \right) \cdot \int f(x_j) p(x_j) dx_j\\
+&= \int f(x_j) p(x_j) dx_j
+\end{align*}
+
+Now, we can deal with the blue term easily: \marginnote{Recall that $\mathbb E [\mathsf x^2] = \sigma^2 + \mu^2$ for $\mathsf x \sim \mathcal N(\mu, \sigma^2)$}
+
+\begin{align*}
+\textcolor{blue}{\int p(\mathbf x) \left (  \sum_{i=1}^{k} {  {x_i}^2}\right) d \mathbf x} &= \int \int \dots \int p(x_1, x_2 , \dots x_n) \left (  \sum_{i=1}^{k} {  {x_i}^2}\right) d x_1 dx_2 \dots dx_n\\
+&= \sum_{i=1}^{k} \int \int \dots \int  { p(x_1, x_2 , \dots x_n) {x_i}^2} d x_1 dx_2 \dots dx_n \\
+&= \sum_{i=1}^{k} \int  p_i(x_i) \cdot  {  {x_i}^2} d x_i \\
+&= \textcolor{blue}{\sum_{i=1}^{k} \left( \sigma^2_i + \mu^2_i \right)}\\
+\end{align*}\\
+Now note that
+\begin{align*}
+{\int \frac{(x-\mu)^2}{\sigma^2} p(x) dx} &= \frac{1}{\sigma^2} \mathbb E [(\mathsf x-\mu)^2] \\
+&=\frac{1}{\sigma^2} Var[\mathsf x]\\
+&={1}
+\end{align*}
+
+Thus, in the red term:
+\begin{align*}
+\textcolor{red}{\int p(\mathbf x) \left (  \sum_{i=1}^{k} {  \frac{(x_i - \mu_i)^2}{\sigma^2}}\right) d \mathbf x} &= \int \int \dots \int p(x_1, x_2 , \dots x_n) \left (  \sum_{i =1}^{k} {  \frac{(x_i - \mu_i)^2}{\sigma^2}}\right) d x_1 dx_2 \dots dx_n\\
+&= \sum_{i=1}^{k} \int  p_i(x_i) \cdot  {  \frac{(x_i - \mu_i)^2}{\sigma^2}} d x_i \\
+&= \textcolor{red}{\sum_{i=1}^{k} 1}\\
+\end{align*}
+
+Putting the two together:
+\begin{align*}
+D_{KL}(p || q) &= \frac{1}{2} \sum_{i=1}^{k}\left( \mu_i^2 + \sigma^2_i - \log \sigma^2_i  - 1 \right)
+\end{align*}
