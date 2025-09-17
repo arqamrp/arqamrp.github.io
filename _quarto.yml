@@ -3,6 +3,7 @@ project:
 
 website:
   title: "Arqam Rizwan Patel"
+  site-url: "https://arqamrp.github.io"
   description: "Graduate student in statistics, UBC"
   navbar:
     pinned: true
