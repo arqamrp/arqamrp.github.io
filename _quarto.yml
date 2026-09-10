@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - survey.pdf
 
 website:
   title: "Arqam Rizwan Patel"
