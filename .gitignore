@@ -4,3 +4,4 @@
 *~
 *.bak
 .quarto/
+/_site/
