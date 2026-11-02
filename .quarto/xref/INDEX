@@ -1,92 +1,26 @@
 {
-  "index.qmd": {
-    "index.html": "f9ce57ad"
-  },
-  "blog/2023-03-24-on-flayed-corpses-and-architecture/index.qmd": {
-    "index.html": "6a76972a"
-  },
-  "blog/index.qmd": {
-    "index.html": "51d5557f"
-  },
-  "about.qmd": {
-    "about.html": "154f3512"
-  },
-  "cv.qmd": {
-    "cv.html": "16534b6d"
+  "blog/posts/2025-07-22-in-search-of-lost-time/index.qmd": {
+    "index.html": "6d59ddcc"
   },
   "blog/posts/2023-03-24-on-flayed-corpses-and-architecture/index.qmd": {
-    "index.html": "6ced4127"
+    "index.html": "a03f8f3f"
   },
   "blog/posts/2023-01-14-notes-on-mark-twain/index.qmd": {
-    "index.html": "2ace4960"
+    "index.html": "c87098fe"
   },
   "blog/posts/2023-03-09-ode-to-quizzing/index.qmd": {
-    "index.html": "8c8e4859"
+    "index.html": "bf9c7c9c"
   },
-  "research.qmd": {
-    "research.html": "608c9d9c"
-  },
-  "blog/posts/2025-07-22-in-search-of-lost-time/index.qmd": {
-    "index.html": "7ed70dc8"
+  "blog/index.qmd": {
+    "index.html": "377ed9ec"
   },
   "projects.qmd": {
-    "projects.html": "6f31e5f7"
+    "projects.html": "61d228fe"
   },
-  "mononote/conc_ineq.qmd": {
-    "conc_ineq.html": "91a032c1"
+  "index.qmd": {
+    "index.html": "fd155932"
   },
-  "mononote/projects/parallel-relay/paras.qmd": {
-    "paras.html": "bea5372c"
-  },
-  "mononote/kl_div.qmd": {
-    "kl_div.html": "76862364"
-  },
-  "mononote/index.qmd": {
-    "index.html": "7c2aa68f"
-  },
-  "mononote/summary.qmd": {
-    "summary.html": "61ed53f1"
-  },
-  "mononote/files/monte_carlo_integration/8_annealed_importance_sampling.qmd": {
-    "8_annealed_importance_sampling.html": "c2dc05a4"
-  },
-  "mononote/files/monte_carlo_integration/6_bridge_sampling.qmd": {
-    "6_bridge_sampling.html": "b2433d4e"
-  },
-  "mononote/files/monte_carlo_integration/9_path_sampling.qmd": {
-    "9_path_sampling.html": "2a65b402"
-  },
-  "mononote/files/monte_carlo_integration/4_importance_resampling.qmd": {
-    "4_importance_resampling.html": "3e0283a9"
-  },
-  "mononote/files/monte_carlo_integration/1_monte_carlo_integration.qmd": {
-    "1_monte_carlo_integration.html": "ac035e6e"
-  },
-  "mononote/files/monte_carlo_integration/2_importance_sampling.qmd": {
-    "2_importance_sampling.html": "53b405fb"
-  },
-  "mononote/files/monte_carlo_integration/7_sequential_iimportance_sampling.qmd": {
-    "7_sequential_iimportance_sampling.html": "93775ce7"
-  },
-  "mononote/files/monte_carlo_integration/3_optimal_importance_sampling.qmd": {
-    "3_optimal_importance_sampling.html": "fec2b7eb"
-  },
-  "mononote/files/monte_carlo_integration/5_norm_constant_est_IS.qmd": {
-    "5_norm_constant_est_IS.html": "cc154adf"
-  },
-  "mononote/files/bayesian_statistics/exp_family.qmd": {
-    "exp_family.html": "46f76dbe"
-  },
-  "mononote/files/sequential_monte_carlo/ssm.qmd": {
-    "ssm.html": "019eddd0"
-  },
-  "mononote/files/optimisation/em.qmd": {
-    "em.html": "25b1e6b5"
-  },
-  "mononote/references.qmd": {
-    "references.html": "7d3ab75d"
-  },
-  "mononote/info_theory.qmd": {
-    "info_theory.html": "8c85fab9"
+  "cv.qmd": {
+    "cv.html": "37d981f0"
   }
 }
